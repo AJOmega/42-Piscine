@@ -29,6 +29,7 @@ void	ft_putnbr(int nb)
 	}
 	ft_putnbr(nb % 10);
 }
+
 int	main(void)
 {
 	ft_putnbr(2147483647);
